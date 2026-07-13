@@ -1,0 +1,8 @@
+House Anchor Adapter
+Copyright 2026 House Protocols contributors
+
+This project interoperates with Anchor Memory, an external MIT-licensed project:
+https://github.com/limen-threshold/anchor-memory
+Copyright 2026 Limen
+
+Anchor Memory source code and private memory data are not included in this repository.
