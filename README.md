@@ -1,5 +1,7 @@
 # House Anchor Adapter
 
+Maintenance release `0.1.0-rc.2` preserves the existing maturity and document profiles. See [CHANGELOG.md](CHANGELOG.md) for dependency changes and consumer lockfile guidance.
+
 House Anchor Adapter connects the House Runtime v0.3 Memory Port candidate to [Anchor Memory](https://github.com/limen-threshold/anchor-memory) without copying or forking Anchor source code.
 
 This repository is a release candidate. It contains no real House data, Keel, prompt, schedule, identity, connector, or private configuration.
