@@ -1,12 +1,22 @@
 {
   "name": "house-anchor-adapter",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0-rc.2",
   "description": "A House Runtime Memory Adapter for the Anchor memory system.",
   "type": "module",
   "license": "AGPL-3.0-only",
   "private": false,
-  "files": ["src", "python", "README.md", "COMPATIBILITY.md", "LICENSE", "NOTICE"],
-  "exports": { ".": "./src/index.mjs" },
+  "files": [
+    "src",
+    "python",
+    "README.md",
+    "COMPATIBILITY.md",
+    "LICENSE",
+    "NOTICE",
+    "CHANGELOG.md"
+  ],
+  "exports": {
+    ".": "./src/index.mjs"
+  },
   "scripts": {
     "test": "node --test",
     "test:anchor": "ANCHOR_UPSTREAM_PATH=${ANCHOR_UPSTREAM_PATH:?set ANCHOR_UPSTREAM_PATH} node --test test/anchor-integration.test.mjs",
@@ -14,10 +24,12 @@
     "check": "npm test && npm run scan:private"
   },
   "dependencies": {
-    "house-runtime": "github:rosie12056-afk/house-runtime#v0.3.0-rc.1"
+    "house-runtime": "github:rosie12056-afk/house-runtime#v0.3.0-rc.3"
   },
   "devDependencies": {
-    "house-toolkit": "github:rosie12056-afk/house-toolkit#v0.3.0-rc.1"
+    "house-toolkit": "github:rosie12056-afk/house-toolkit#v0.3.0-rc.4"
   },
-  "engines": { "node": ">=22.13" }
+  "engines": {
+    "node": ">=22.13"
+  }
 }
